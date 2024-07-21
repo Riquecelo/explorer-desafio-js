@@ -15,3 +15,69 @@ Você pode apresentar o resultado tanto no **console** quanto em um **alerta** n
 9. Crie um script que declare uma variável e verifique se o seu valor é um número par. Se for, exiba a mensagem "É um número par", caso contrário, exiba a mensagem "Não é um número par".
 10. Crie um script que declare uma variável e verifique se o seu valor é um número ímpar. Se for, exiba a mensagem "É um número ímpar", caso contrário, exiba a mensagem "Não é um número ímpar".
 */
+
+//1.Res
+alert("Hello World!")
+
+//2.Resp
+let numb1 = 2;
+let numb2 = 3;
+
+alert(`O resultado da soma das variáveis é: ${numb1 + numb2}`);
+
+//3.Resp
+let result = numb1 + numb2;
+
+if(typeof result === "number"){
+    alert("É um número")
+}else{
+    alert("Não é um número")
+}
+
+//4.Resp
+let msg = prompt("Digite sua mensage:")
+if(typeof msg === "string"){
+    alert("É uma string")
+}else{
+    alert("Não é uma string")
+}
+
+//5.Resp
+let bool = true;
+
+if(typeof bool === "boolean"){
+    alert("É um booleano")
+}else{
+    alert("Não é um booleano")
+}
+
+//6.Resp
+let numA = 8;
+let numB = 2;
+let sub = numA - numB;
+alert(`O resultado da subtração entra as variáveis ${numA} e ${numB} é: ${sub}`)
+
+//7.Resp
+let mult = numA * numB;
+alert(`O resultado da multiplicação entra as variáveis ${numA} e ${numB} é: ${mult}`)
+
+//8.Resp
+let div = numA / numB;
+alert(`O resultado da divisão entra as variáveis ${numA} e ${numB} é: ${div}`)
+
+//9.Resp
+let resto = numA % numB;
+alert(`O resto da divisão entra as variáveis ${numA} e ${numB} é: ${resto}`)
+
+if(resto == 0){
+    alert("É um número par")
+}else{
+    alert("Não é número par")
+}
+
+//10.Resp
+if(resto == 1){
+    alert("É um número ímpar")
+}else{
+    alert("Não é número ímpar")
+}
